@@ -6,8 +6,8 @@ import streamlit.components.v1 as components
 st.set_page_config(page_title="MamaCare", page_icon="👶", layout="wide")
 
 # Tải hình ảnh
-image_1 = Image.open(r"C:\Users\lequa\Downloads\UI\1.png")
-image_2 = Image.open(r"C:\Users\lequa\Downloads\UI\2.png")
+image_1 = Image.open(r"1.png")
+image_2 = Image.open(r"2.png")
 
 # CSS để tạo phong cách
 st.markdown("""
