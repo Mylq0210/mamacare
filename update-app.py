@@ -21,8 +21,8 @@ def change_page(page):
     st.session_state.page = page
 
 # Tải hình ảnh
-image_1 = Image.open(r"C:\\Users\\lequo\\Downloads\\UI\\UI\\1.png")
-image_2 = Image.open(r"C:\\Users\\lequo\\Downloads\\UI\\UI\\2.png")
+image_1 = Image.open(r"1.png")
+image_2 = Image.open(r"2.png")
 
 # CSS để tạo phong cách
 st.markdown("""
